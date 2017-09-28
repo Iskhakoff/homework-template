@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
 def sort_insert(arr):
     print('Исходный массив: ', arr)
     for i in range(len(arr)):
-        maxi = 0
         while i > 0 and arr[i] < arr[i - 1]:
             maxi = arr[i - 1]
             arr[i - 1] = arr[i]
